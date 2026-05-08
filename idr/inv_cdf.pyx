@@ -1,5 +1,5 @@
 cimport cython
-cimport numpy as np
+cimport numpy as cnp
 import numpy as np
 from libc.math cimport exp, sqrt, pow, log, erf, fabs
 from libc.stdlib cimport malloc, free
